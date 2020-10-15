@@ -1,0 +1,5 @@
+---
+- name: Playbook to install ansible on a linux machine.
+  hosts: localhost
+  roles:
+    - role: geerlingguy.ansible
